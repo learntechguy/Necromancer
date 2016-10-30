@@ -6,8 +6,8 @@ public class Reference {
 	public static final String VERSION = "0.1";
 	public static final String ACCEPTED_VERSIONS = "[1.10]";
 	
-	public static final String CLIENT_PROXY_CLASS = "netknight.necromancer.proxy.ClientProxy";
-	public static final String SERVER_PROXY_CLASS = "netknight.necromancer.proxy.ServerProxy";
+	public static final String CLIENT_PROXY_CLASS = "com.learntechguy.necromancer.proxy.ClientProxy";
+	public static final String SERVER_PROXY_CLASS = "com.learntechguy.necromancer.proxy.ServerProxy";
 	
 	public static enum NecromancerItems {
 		BRAIN("brain", "brain");
