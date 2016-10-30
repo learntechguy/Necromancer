@@ -1,0 +1,13 @@
+package com.learntechguy.necromancer.items;
+
+import com.learntechguy.necromancer.Reference;
+
+import net.minecraft.item.Item;
+
+public class ItemBrain extends Item {
+
+	public ItemBrain() {
+		setUnlocalizedName(Reference.NecromancerItems.BRAIN.getUnlocalizedName());
+		setRegistryName(Reference.NecromancerItems.BRAIN.getRegistryName());
+	}
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "necromancer",
+  "name": "Necromancer",
+  "description": "A necromancy mod for minecraft.",
+  "version": "0.1",
+  "mcversion": "1.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["NetKnight"],
+  "credits": "NetKnight and friends",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
