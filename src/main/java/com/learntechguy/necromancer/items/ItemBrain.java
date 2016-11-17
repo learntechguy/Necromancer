@@ -1,5 +1,6 @@
 package com.learntechguy.necromancer.items;
 
+import com.learntechguy.necromancer.Necromancer;
 import com.learntechguy.necromancer.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -10,6 +11,6 @@ public class ItemBrain extends Item {
 	public ItemBrain() {
 		setUnlocalizedName(Reference.NecromancerItems.BRAIN.getUnlocalizedName());
 		setRegistryName(Reference.NecromancerItems.BRAIN.getRegistryName());
-		this.setCreativeTab(CreativeTabs.MATERIALS);
+		this.setCreativeTab(Necromancer.CREATIVE_TAB);
 	}
 }

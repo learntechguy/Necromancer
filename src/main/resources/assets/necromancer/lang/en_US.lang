@@ -1,3 +1,10 @@
 item.brain.name=Brain
 
+item.zombie_helmet=Zombie Flesh Helmet
+item.zombie_chestplate=Zombie Flesh Chestplate
+item.zombie_leggings=Zombie Flesh Leggings
+item.zombie_boots=Zombie Flesh Boots
+
 tile.pike.name=Pike
+
+itemGroup.tabNecromancer=Necromancer

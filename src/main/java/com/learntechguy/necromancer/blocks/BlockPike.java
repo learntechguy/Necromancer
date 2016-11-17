@@ -16,6 +16,7 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 import com.google.common.base.Predicate;
+import com.learntechguy.necromancer.Necromancer;
 import com.learntechguy.necromancer.Reference;
 
 public class BlockPike extends Block {
@@ -25,7 +26,7 @@ public class BlockPike extends Block {
 		super(Material.WOOD);
 		this.setUnlocalizedName(Reference.NecromancerBlocks.PIKE.getUnlocalizedName());
 		this.setRegistryName(Reference.NecromancerBlocks.PIKE.getRegistryName());
-		this.setCreativeTab(CreativeTabs.MATERIALS);
+		this.setCreativeTab(Necromancer.CREATIVE_TAB);
 		this.setHardness(1.0f);
 		this.setHarvestLevel("axe",  1);
 	}

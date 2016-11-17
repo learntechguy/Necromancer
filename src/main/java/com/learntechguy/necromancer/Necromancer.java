@@ -1,9 +1,12 @@
 package com.learntechguy.necromancer;
 
+import com.learntechguy.necromancer.init.ModArmor;
 import com.learntechguy.necromancer.init.ModBlocks;
+import com.learntechguy.necromancer.init.ModCrafting;
 import com.learntechguy.necromancer.init.ModItems;
 import com.learntechguy.necromancer.proxy.CommonProxy;
 
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -21,6 +24,8 @@ public class Necromancer {
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
+	public static CreativeTabs CREATIVE_TAB = new NecromancerTab();
+	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		ModItems.init();
@@ -28,12 +33,16 @@ public class Necromancer {
 		
 		ModBlocks.init();
 		ModBlocks.register();
+		
+		ModArmor.init();
+		ModArmor.register();
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.init();
 		MinecraftForge.EVENT_BUS.register(new CommonEvents());
+		ModCrafting.register();
 	}
 	
 	@EventHandler
