@@ -1,5 +1,6 @@
 item.brain.name=Brain
 
+<<<<<<< HEAD
 item.zombie_helmet=Zombie Flesh Helmet
 item.zombie_chestplate=Zombie Flesh Chestplate
 item.zombie_leggings=Zombie Flesh Leggings
@@ -8,3 +9,7 @@ item.zombie_boots=Zombie Flesh Boots
 tile.pike.name=Pike
 
 itemGroup.tabNecromancer=Necromancer
+=======
+tile.pike.name=Pike
+tile.skulls.name=Block of Skulls
+>>>>>>> origin/master
