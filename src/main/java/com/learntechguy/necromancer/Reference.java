@@ -30,7 +30,8 @@ public class Reference {
 	}
 	
 	public static enum NecromancerBlocks {
-		PIKE("pike", "pike");
+		PIKE("pike", "pike"),
+		SKULLS("skulls", "skulls");
 		
 		private String unlocalizedName;
 		private String registryName;

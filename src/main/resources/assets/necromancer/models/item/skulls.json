@@ -1,0 +1,6 @@
+{
+    "parent": "necromancer:block/skulls",
+    "textures": {
+        "layer0": "necromancer:blocks/skulls"
+    }
+}

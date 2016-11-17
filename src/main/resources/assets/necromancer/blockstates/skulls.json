@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "necromancer:skulls" },
+            { "model": "necromancer:skulls", "y": 90 },
+            { "model": "necromancer:skulls", "y": 180 },
+            { "model": "necromancer:skulls", "y": 270 }
+        ]
+    }
+}

@@ -8,17 +8,21 @@ import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import com.learntechguy.necromancer.blocks.BlockPike;
+import com.learntechguy.necromancer.blocks.BlockSkulls;
 
 public class ModBlocks {
 	
 	public static Block pike;
+	public static Block skulls;
 	
 	public static void init() {
 		pike = new BlockPike();
+		skulls = new BlockSkulls();
 	}
 	
 	public static void register() {
 		registerBlock(pike);
+		registerBlock(skulls);
 	}
 	
 	private static void registerBlock(Block block) {

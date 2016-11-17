@@ -23,7 +23,7 @@ public class BlockPike extends Block {
 	
 	public BlockPike() {
 		super(Material.WOOD);
-		this.setUnlocalizedName(Reference.NecromancerBlocks.PIKE.getUnlocalizedName());
+		this.setUnlocalizedName(Reference.NecromancerBlocks.PIKE.getUnlocalizedName());	
 		this.setRegistryName(Reference.NecromancerBlocks.PIKE.getRegistryName());
 		this.setCreativeTab(CreativeTabs.MATERIALS);
 		this.setHardness(1.0f);
