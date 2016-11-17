@@ -34,9 +34,11 @@ public class ModBlocks {
 	
 	public static void registerRenders() {
 		registerRender(pike);
+		registerRender(skulls);
 	}
 	
 	private static void registerRender(Block block) {
-		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher()
+		.register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
 	}
 }
