@@ -8,6 +8,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+import com.learntechguy.necromancer.Necromancer;
 import com.learntechguy.necromancer.Reference;
 
 public class BlockSkulls extends Block {
@@ -15,5 +16,6 @@ public class BlockSkulls extends Block {
 		super(Material.ROCK);
 		this.setUnlocalizedName(Reference.NecromancerBlocks.SKULLS.getUnlocalizedName());	
 		this.setRegistryName(Reference.NecromancerBlocks.SKULLS.getRegistryName());
+		this.setCreativeTab(Necromancer.CREATIVE_TAB);
 	}
 }
