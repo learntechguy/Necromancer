@@ -21,15 +21,10 @@ public class Reference {
 	public static final String SERVER_PROXY_CLASS = "com.learntechguy.necromancer.proxy.ServerProxy";
 	
 	public static enum NecromancerItems {
-<<<<<<< HEAD
 		BRAIN("brain"),
-		ZOMBIE_ARMOR("zombie_armor");
-=======
-		BRAIN("brain", "brain"),
-		ZOMBIE_ARMOR("zombie_armor", "zombie_armor"),
-		SKELETON_ARMOR("skeleton_armor", "skeleton_armor"),
-		FLESHNBONE_ARMOR("fleshNbone_armor", "fleshNbone_armor");
->>>>>>> origin/master
+		ZOMBIE_ARMOR("zombie_armor"),
+		SKELETON_ARMOR("skeleton_armor"),
+		FLESHNBONE_ARMOR("fleshNbone_armor");
 		
 		private String unlocalizedName;
 		private String registryName;
