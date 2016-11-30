@@ -21,15 +21,15 @@ public class Reference {
 	public static final String SERVER_PROXY_CLASS = "com.learntechguy.necromancer.proxy.ServerProxy";
 	
 	public static enum NecromancerItems {
-		BRAIN("brain", "brain"),
-		ZOMBIE_ARMOR("zombie_armor", "zombie_armor");
+		BRAIN("brain"),
+		ZOMBIE_ARMOR("zombie_armor");
 		
 		private String unlocalizedName;
 		private String registryName;
 		
-		NecromancerItems(String unlocalizedName, String registryName) {
-			this.unlocalizedName = unlocalizedName;
-			this.registryName = registryName;
+		NecromancerItems(String name) {
+			this.unlocalizedName = name;
+			this.registryName = MOD_ID + ":" + name;
 		}
 		
 		public String getRegistryName() {
@@ -42,15 +42,15 @@ public class Reference {
 	}
 	
 	public static enum NecromancerBlocks {
-		PIKE("pike", "pike"),
-		SKULLS("skulls", "skulls");
+		PIKE("pike"),
+		SKULLS("skulls");
 		
 		private String unlocalizedName;
 		private String registryName;
 		
-		NecromancerBlocks(String unlocalizedName, String registryName) {
-			this.unlocalizedName = unlocalizedName;
-			this.registryName = registryName;
+		NecromancerBlocks(String name) {
+			this.unlocalizedName = name;
+			this.registryName = MOD_ID + ":" + name;
 		}
 		
 		public String getRegistryName() {
