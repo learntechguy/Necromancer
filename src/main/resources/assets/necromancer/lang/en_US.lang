@@ -1,9 +1,19 @@
 item.brain.name=Brain
 
-item.zombie_helmet=Zombie Flesh Helmet
-item.zombie_chestplate=Zombie Flesh Chestplate
-item.zombie_leggings=Zombie Flesh Leggings
-item.zombie_boots=Zombie Flesh Boots
+item.zombie_helmet.name=Zombie Flesh Helmet
+item.zombie_chestplate.name=Zombie Flesh Chestplate
+item.zombie_leggings.name=Zombie Flesh Leggings
+item.zombie_boots.name=Zombie Flesh Boots
+
+item.skeleton_helmet.name=Skeleton Bone Helmet
+item.skeleton_chestplate.name=Skeleton Bone Chestplate
+item.skeleton_leggings.name=Skeleton Bone Leggings
+item.skeleton_boots.name=Skeleton Bone Boots
+
+item.fleshNbone_helmet.name=Flesh 'n' Bone Helmet
+item.fleshNbone_chestplate.name=Flesh 'n' Bone Chestplate
+item.fleshNbone_leggings.name=Flesh 'n' Bone Leggings
+item.fleshNbone_boots.name=Flesh 'n' Bone Boots
 
 itemGroup.tabNecromancer=Necromancer
 

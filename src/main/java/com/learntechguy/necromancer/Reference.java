@@ -21,8 +21,15 @@ public class Reference {
 	public static final String SERVER_PROXY_CLASS = "com.learntechguy.necromancer.proxy.ServerProxy";
 	
 	public static enum NecromancerItems {
+<<<<<<< HEAD
 		BRAIN("brain"),
 		ZOMBIE_ARMOR("zombie_armor");
+=======
+		BRAIN("brain", "brain"),
+		ZOMBIE_ARMOR("zombie_armor", "zombie_armor"),
+		SKELETON_ARMOR("skeleton_armor", "skeleton_armor"),
+		FLESHNBONE_ARMOR("fleshNbone_armor", "fleshNbone_armor");
+>>>>>>> origin/master
 		
 		private String unlocalizedName;
 		private String registryName;
@@ -63,12 +70,25 @@ public class Reference {
 	}
 
 	public static final ArmorMaterial zombieMaterial = EnumHelper.addArmorMaterial("zombie", MOD_ID+":zombie", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F);
+	public static final ArmorMaterial skeletonMaterial = EnumHelper.addArmorMaterial("skeleton", MOD_ID+":skeleton", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F);
+	public static final ArmorMaterial fleshNboneMaterial = EnumHelper.addArmorMaterial("fleshNbone", MOD_ID+":fleshNbone", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	
 	public static enum NecromancerArmor {
 		ZOMBIE_HELMET(zombieMaterial, 1, EntityEquipmentSlot.HEAD, "zombie_helmet"),
 		ZOMBIE_CHESTPLATE(zombieMaterial, 1, EntityEquipmentSlot.CHEST, "zombie_chestplate"),
 		ZOMBIE_LEGGINGS(zombieMaterial, 2, EntityEquipmentSlot.LEGS, "zombie_leggings"),
-		ZOMBIE_BOOTS(zombieMaterial, 1, EntityEquipmentSlot.FEET, "zombie_boots");
+		ZOMBIE_BOOTS(zombieMaterial, 1, EntityEquipmentSlot.FEET, "zombie_boots"),
+		
+		SKELETON_HELMET(zombieMaterial, 1, EntityEquipmentSlot.HEAD, "skeleton_helmet"),
+		SKELETON_CHESTPLATE(zombieMaterial, 1, EntityEquipmentSlot.CHEST, "skeleton_chestplate"),
+		SKELETON_LEGGINGS(zombieMaterial, 2, EntityEquipmentSlot.LEGS, "skeleton_leggings"),
+		SKELETON_BOOTS(zombieMaterial, 1, EntityEquipmentSlot.FEET, "skeleton_boots"),
+		
+		FLESHNBONE_HELMET(zombieMaterial, 1, EntityEquipmentSlot.HEAD, "fleshNbone_helmet"),
+		FLESHNBONE_CHESTPLATE(zombieMaterial, 1, EntityEquipmentSlot.CHEST, "fleshNbone_chestplate"),
+		FLESHNBONE_LEGGINGS(zombieMaterial, 2, EntityEquipmentSlot.LEGS, "fleshNbone_leggings"),
+		FLESHNBONE_BOOTS(zombieMaterial, 1, EntityEquipmentSlot.FEET, "fleshNbone_boots");
+		
 		
 		private ArmorMaterial material;
 		private int renderIndex;
